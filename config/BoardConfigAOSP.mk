@@ -21,3 +21,6 @@ SKIP_BOOT_JARS_CHECK := true
 # Used to avoid getting errors for stuff we are not actually building
 # Remove when and if possible
 ALLOW_MISSING_DEPENDENCIES := true
+
+# Allow include prebuilt binaries as on A11
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
