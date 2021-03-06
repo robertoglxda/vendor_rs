@@ -24,3 +24,6 @@ ALLOW_MISSING_DEPENDENCIES := true
 
 # Allow include prebuilt binaries as on A11
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
+# Ignore neverallows in userdebug builds
+SELINUX_IGNORE_NEVERALLOWS := true
