@@ -187,7 +187,7 @@ ifeq ($(TARGET_KERNEL_CLANG_COMPILE),true)
     endif
     TARGET_KERNEL_CLANG_PATH ?= $(BUILD_TOP)/prebuilts/clang/host/$(HOST_OS)-x86/$(KERNEL_CLANG_VERSION)
     ifeq ($(KERNEL_ARCH),arm64)
-        KERNEL_CLANG_TRIPLE ?= CLANG_TRIPLE=aarch64-linux-gnu-
+        KERNEL_CLANG_TRIPLE ?= CLANG_TRIPLE=aarch64-linux-
     else ifeq ($(KERNEL_ARCH),arm)
         KERNEL_CLANG_TRIPLE ?= CLANG_TRIPLE=arm-linux-gnu-
     else ifeq ($(KERNEL_ARCH),x86)
